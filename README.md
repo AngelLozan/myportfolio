@@ -2,6 +2,8 @@
 
 Author: `Scott Lozano`
 
+🚀 https://angellozan.github.io/myportfolio/
+
 A simple site to display my portfolio of projects.
 
 ## A simple portfolio site built with bootstrap
