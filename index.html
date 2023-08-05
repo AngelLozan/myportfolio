@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/overlay.css">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="57">
@@ -96,54 +97,117 @@
     <section id="portfolio" class="p-0">
         <div class="container-fluid p-0">
             <div class="row g-0 popup-gallery">
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/thumbnails/AOJ1.png"><img class="img-fluid" src="assets/img/thumbnails/AOJ1.png">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Client Project</span></div>
-                                <div class="project-name"><span>NFT Landing Page</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/thumbnails/chaincare.png"><img class="img-fluid" src="assets/img/thumbnails/chaincare.png">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Full Stack Rails App</span></div>
-                                <div class="project-name"><span>ChainCare</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/thumbnails/Market.png"><img class="img-fluid" src="assets/img/thumbnails/Market.png">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Full Stack EVM App</span></div>
-                                <div class="project-name"><span>NFT Marketplace</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/thumbnails/videolinux.png"><img class="img-fluid" src="assets/img/thumbnails/videolinux.png">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Simple React App</span></div>
-                                <div class="project-name"><span>Video Linux</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/thumbnails/polygon.png"><img class="img-fluid" src="assets/img/thumbnails/polygon.png">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Chrome Extension</span></div>
-                                <div class="project-name"><span>Polygon Fee Tracker</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/thumbnails/electron.png"><img class="img-fluid" src="assets/img/thumbnails/electron.png">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Electron Desktop App</span></div>
-                                <div class="project-name"><span>Automated Scam Reporter</span></div>
-                            </div>
-                        </div>
-                    </a></div>
+
+              <!-- CARD 1-->
+              <div class="col-lg-4">
+                <a href='https://aoj.netlify.app/' target="_blank" class="url-box" >
+                  <figure class='newsCard news-Slide-up '>
+                    <img src="assets/img/thumbnails/AOJ1.png"/>
+                    <div class='newsCaption px-4'>
+                    <div class="d-flex align-items-center justify-content-between cnt-title">
+                     <h5 class='newsCaption-title text-white m-0'>NFT Artist Landing Page</h5> <i class="fas fa-arrow-alt-circle-right "></i>
+                     </div>
+                     <div class='newsCaption-content d-flex '>
+                     <p class="col-10 py-3 px-0">A client project to deploy a landing page and NFT collection on Polygon and Solana for a paint on canvas artist. Transformed their works into a NFT collection.</p>
+                    </div>
+                    </div>
+                    <span class="overlay"></span>
+                  </figure>
+                </a>
+                </div> <!-- end card1-->
+
+
+                <!-- CARD 2-->
+                <div class="col-lg-4">
+                <a href='https://github.com/AngelLozan/crypto_zendesk' target="_blank" class="url-box" >
+                  <figure class='newsCard news-Slide-up '>
+                    <img src="assets/img/thumbnails/chaincare.png"/>
+                    <div class='newsCaption px-4'>
+                    <div class="d-flex align-items-center justify-content-between cnt-title">
+                     <h5 class='newsCaption-title text-white m-0'>Full-Stack Ruby on Rails App</h5> <i class="fas fa-arrow-alt-circle-right "></i>
+                     </div>
+                     <div class='newsCaption-content d-flex '>
+                     <p class="col-10 py-3 px-0">A clone of ZenDesk with a twist. This was a project designed and launched with a small team over two weeks to solve a major problem in crypto customer care: How to decipher blockchain hashes easily when timing is everything. Uses Redis, PostgreSQL, Ruby on Rails, Ajaxified JS, Web3JS libraries, Solana, and more. </p>
+                    </div>
+                    </div>
+                    <span class="overlay"></span>
+                  </figure>
+                </a>
+                </div> <!-- end card2-->
+
+                <!-- CARD 3-->
+                <div class="col-lg-4">
+                <a href='https://github.com/AngelLozan/blockchain-developer-bootcamp-final-project.github.io' target="_blank" class="url-box" >
+                  <figure class='newsCard news-Slide-up '>
+                    <img src="assets/img/thumbnails/Market.png"/>
+                    <div class='newsCaption px-4'>
+                    <div class="d-flex align-items-center justify-content-between cnt-title">
+                     <h5 class='newsCaption-title text-white m-0'>Full-Stack EVM APP</h5> <i class="fas fa-arrow-alt-circle-right "></i>
+                     </div>
+                     <div class='newsCaption-content d-flex '>
+                     <p class="col-10 py-3 px-0">An NFT marketplace built on Polygon. Utilized Hardhat, EthersJS, NextJS, simple authentication and Solidity. </p>
+                    </div>
+                    </div>
+                    <span class="overlay"></span>
+                  </figure>
+                </a>
+                </div> <!-- end card3-->
+
+                <!-- CARD 4-->
+              <div class="col-lg-4">
+                <a href='https://videolinux.netlify.app/' target="_blank" class="url-box" >
+                  <figure class='newsCard news-Slide-up '>
+                    <img src="assets/img/thumbnails/videolinux.png"/>
+                    <div class='newsCaption px-4'>
+                    <div class="d-flex align-items-center justify-content-between cnt-title">
+                     <h5 class='newsCaption-title text-white m-0'>Simple React App</h5> <i class="fas fa-arrow-alt-circle-right "></i>
+                     </div>
+                     <div class='newsCaption-content d-flex '>
+                     <p class="col-10 py-3 px-0">A react app built to test my camera functionality after building my Linux machine. I could not find a suitable software to test whether my camera and microphone worked. I designed and deployed this react app on Netlify to allow me to download and check recording quality. </p>
+                    </div>
+                    </div>
+                    <span class="overlay"></span>
+                  </figure>
+                </a>
+                </div> <!-- end card4-->
+
+
+                <!-- CARD 5-->
+                <div class="col-lg-4">
+                <a href='https://chrome.google.com/webstore/detail/polygon-matic-gas-tracker/ljmnpoboijpolhkdnphimbfablojdjem' target="_blank" class="url-box" >
+                  <figure class='newsCard news-Slide-up '>
+                    <img src="assets/img/thumbnails/polygon.png"/>
+                    <div class='newsCaption px-4'>
+                    <div class="d-flex align-items-center justify-content-between cnt-title">
+                     <h5 class='newsCaption-title text-white m-0'>Chrome Extension</h5> <i class="fas fa-arrow-alt-circle-right "></i>
+                     </div>
+                     <div class='newsCaption-content d-flex '>
+                     <p class="col-10 py-3 px-0">A React app to track Polygon gas prices compliant with EIP-1559. Has real-time block streaming. Displays real-time price information. Uses Alchemy endpoint, Matic Mainnet and Coingecko api.  </p>
+                    </div>
+                    </div>
+                    <span class="overlay"></span>
+                  </figure>
+                </a>
+                </div> <!-- end card5-->
+
+                <!-- CARD 6-->
+                <div class="col-lg-4">
+                <a href='https://github.com/AngelLozan/ElectronReporter' target="_blank" class="url-box" >
+                  <figure class='newsCard news-Slide-up '>
+                    <img src="assets/img/thumbnails/electron.png"/>
+                    <div class='newsCaption px-4'>
+                    <div class="d-flex align-items-center justify-content-between cnt-title">
+                     <h5 class='newsCaption-title text-white m-0'>Electron Desktop App</h5> <i class="fas fa-arrow-alt-circle-right "></i>
+                     </div>
+                     <div class='newsCaption-content d-flex '>
+                     <p class="col-10 py-3 px-0">A private repo available on request. This application was built to help automate processes for the Security department at Exodus. Utilizes Electron, NodeJS and JavaScript. This was the first desktop application I've built and packaged for use professionally.</p>
+                    </div>
+                    </div>
+                    <span class="overlay"></span>
+                  </figure>
+                </a>
+                </div> <!-- end card6-->
+
             </div>
         </div>
     </section>
