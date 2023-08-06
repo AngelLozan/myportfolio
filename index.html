@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/overlay.css">
-
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="57">
@@ -270,7 +270,7 @@
                     />
                   </div>
 
-                  <div class="form-group">
+                  <div class="form-group mb-3">
                     <label for="email_body">Message</label>
                     <textarea
                       class="form-control"
@@ -279,7 +279,8 @@
                       rows="5"
                     ></textarea>
                   </div>
-
+                  <div class="g-recaptcha" data-sitekey="6LcTroUnAAAAAM1HpSVBQjjcjRKuSxDJLr7R7rlS"></div>
+                  <br/>
                   <button type="submit" class="btn btn-primary mt-3">Submit</button>
                 </form>
 
