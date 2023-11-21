@@ -2,7 +2,7 @@
 
 Author: `Scott Lozano`
 
-🚀 https://angellozan.github.io/myportfolio/
+🚀 https://scottech.software/
 
 A simple site to display my portfolio of projects.
 
